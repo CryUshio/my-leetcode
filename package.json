@@ -1,0 +1,30 @@
+{
+  "name": "my-leetcode",
+  "version": "1.0.0",
+  "description": "记录 LeetCode 解题过程",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CryUshio/my-leetcode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CryUshio/my-leetcode/issues"
+  },
+  "homepage": "https://github.com/CryUshio/my-leetcode#readme",
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "@types/lodash": "^4.14.172",
+    "jest": "^27.1.0",
+    "ts-jest": "^27.0.5",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
