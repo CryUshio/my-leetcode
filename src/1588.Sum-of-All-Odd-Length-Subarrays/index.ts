@@ -22,7 +22,7 @@ function sumOddLengthSubarrays(arr: number[]): number {
       let result = 0;
       for (let rank = 1; rank <= rankCount; rank++) {
           const m = len - (rank - 1) * 2;
-          const minSide = Math.min(m, rank * 2 - 1)
+          const minSide = Math.min(m, rank * 2 - 1);
           result += countInRank(i, minSide);
       }
       return result;
@@ -31,7 +31,7 @@ function sumOddLengthSubarrays(arr: number[]): number {
   function countInRank(i: number, minSide: number) {
       return Math.min(Math.min(i + 1, len - i), minSide);
   }
-};
+}
 
 
 /**

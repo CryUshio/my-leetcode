@@ -7,6 +7,6 @@ function runningSum(nums: number[]): number[] {
       nums[i] += nums[i - 1];
   }
   return nums;
-};
+}
 
 runningSum([1, 2, 3, 4, 5]);

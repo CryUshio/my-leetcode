@@ -13,7 +13,7 @@ function corpFlightBookingsViolent(bookings: number[][], n: number): number[] {
   });
 
   return answer;
-};
+}
 
 /** 差分法 */
 function corpFlightBookingsDifference (bookings: number[][], n: number): number[] {
@@ -30,7 +30,7 @@ function corpFlightBookingsDifference (bookings: number[][], n: number): number[
   }
 
   return answer;
-};
+}
 
 
 

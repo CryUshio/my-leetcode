@@ -1,0 +1,15 @@
+{
+  "env": {
+    "commonjs": true,
+    "es6": true
+  },
+  "plugins": ["@typescript-eslint"],
+  "extends": ["plugin:@typescript-eslint/recommended"],
+  "rules": {
+    "quotes": ["error", "single"],
+    "spaced-comment": ["error", "always", { "exceptions": ["-", "+"] }],
+    "comma-dangle": ["error", "only-multiline"],
+    "no-multiple-empty-lines": "off",
+    "semi": 2
+  }
+}
