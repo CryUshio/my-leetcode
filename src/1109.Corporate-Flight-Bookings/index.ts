@@ -16,7 +16,7 @@ function corpFlightBookingsViolent(bookings: number[][], n: number): number[] {
 }
 
 /** 差分法 */
-function corpFlightBookingsDifference (bookings: number[][], n: number): number[] {
+function corpFlightBookingsDifference(bookings: number[][], n: number): number[] {
   const answer = new Array(n).fill(0);
 
   for (const booking of bookings) {
@@ -32,9 +32,4 @@ function corpFlightBookingsDifference (bookings: number[][], n: number): number[
   return answer;
 }
 
-
-
-export {
-  corpFlightBookingsViolent,
-  corpFlightBookingsDifference,
-};
+export { corpFlightBookingsViolent, corpFlightBookingsDifference };

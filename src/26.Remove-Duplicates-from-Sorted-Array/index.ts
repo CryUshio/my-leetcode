@@ -13,7 +13,4 @@ function removeDuplicates(nums: number[]): number {
   return pos + 1;
 }
 
-
-export {
-  removeDuplicates,
-};
+export { removeDuplicates };

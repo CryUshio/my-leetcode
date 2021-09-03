@@ -46,7 +46,7 @@ function compareVersion(version1: string, version2: string): number {
     }
     /** 跳过点号 */
     q++;
-    
+
     if (+ver1 < +ver2) {
       return -1;
     }
@@ -64,8 +64,4 @@ function compareVersion(version1: string, version2: string): number {
 
 compareVersion('1.9.9.9', '1.10.0.0');
 
-
-export {
-  compareVersion,
-  compareVersionStringSplit,
-};
+export { compareVersion, compareVersionStringSplit };
